@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>my web</h2>
+<h2>my controler</h2>
 </body>
 </html>
