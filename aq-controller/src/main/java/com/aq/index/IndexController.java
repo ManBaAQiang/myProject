@@ -1,6 +1,8 @@
 package com.aq.index;
 
+import com.aq.sunrise.manager.IndexManager;
 import com.alibaba.fastjson.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,6 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
+    @Autowired
+    private IndexManager indexManager;
+
     @RequestMapping("index")
     @ResponseBody
     public String index() {
@@ -22,11 +27,8 @@ public class IndexController {
     @RequestMapping("test")
     @ResponseBody
     public JSONObject testGet() {
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("name","yaq");
-        jsonObject.put("age",25);
-        jsonObject.put("sex","man");
-        return jsonObject;
+
+        return indexManager.queryHotData();
     }
 
 }
