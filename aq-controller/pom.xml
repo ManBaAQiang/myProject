@@ -138,8 +138,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>cn.sunrise.yaq</groupId>
+            <groupId>cn.sunrise</groupId>
             <artifactId>aq-controller-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.sunrise</groupId>
+            <artifactId>aq-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
@@ -171,10 +176,10 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-        </dependency>
+        </dependency>-->
         <!-- springframework 的相关依赖 end -->
 
         <!--配置上传文件拦截的依赖包-->
