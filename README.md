@@ -13,6 +13,8 @@
 	static-task：创建一个静态工程项目，为了项目的健壮性及其用户体验，使用freemarker生成静态文件及访问高频数据存入缓存
 	服务器：
 	
+相关sql数据语句、差异性文件	统一存放在material文件夹
+数据模型使用power designer构建查看
 
 加油
 
