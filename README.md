@@ -15,6 +15,3 @@
 	
 相关sql数据语句、差异性文件	统一存放在material文件夹
 数据模型使用power designer构建查看
-
-加油
-
