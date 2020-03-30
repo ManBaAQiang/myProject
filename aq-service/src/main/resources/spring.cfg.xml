@@ -57,6 +57,6 @@
 
     <!--  使用MapperScannerConfigurer扫描指定包的接口，并自动生成MapperFactoryBean -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="dao"/>
+        <property name="basePackage" value="com.aq.dao"/>
     </bean>
 </beans>
